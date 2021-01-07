@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Summer</title>
+    <style>
+      body {
+        background-color: #66cdaa;
+      }
+
+      div {
+        margin: 0 auto;
+        padding: 100px;
+        border-radius: 100vh;
+        width: 300px;
+        text-align: center;
+        border: 3.5px solid #fff;
+        color: #fff;
+      }
+
+      h1 {
+        color: #fff;
+        text-align: center;
+      }
+      h2 {
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+        font-size: 15px;
+      }
+      #mori {
+        margin: 0 auto;
+        padding: 100px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <script src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <h1>夏の思い出</h1>
+    <h2>
+      コロナウイルスが流行してからアルバイト以外はほとんど外に出ず自粛していました。
+      <br />毎年行っていたliveやお祭りなども今年はなく自粛中にちょうど発売されたあつ森を沢山やっていました。<br />
+      その時に写真です。友達と通話しながらあつ森の通信をして現実では行くことのできなかった花火大会にゲームの<br />
+      中ではありますが浴衣を着せて写真をとったりといつもとは違った形での夏の思い出作りとなりました。
+    </h2>
+    <div id="text-button"><p id="text">stay home</p></div>
+    <img id="mori" src="08.png" />
+    <script>
+      document.getElementById("text-button").onclick = function () {
+        document.getElementById("text").innerHTML = "stay safe！";
+      };
+    </script>
+  </body>
+</html>
